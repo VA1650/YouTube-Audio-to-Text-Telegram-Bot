@@ -30,25 +30,25 @@ FFmpeg must be installed on the system to run the bot.
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
-bash
+```bash
 git clone https://github.com/VA1650/YouTube-Audio-to-Text-Telegram-Bot.git
 cd YouTube-Audio-to-Text-Telegram-Bot 
-
+```
 ### 2. Install dependencies
-bash
+```bash
 pip install aiogram yt-dlp faster-whisper torch
-
+```
 ### 3. Set the bot token
-bash
+```bash
 # Windows (CMD)
 set TELEGRAM_BOT_TOKEN=your_token_here
 # Linux/macOS
 export TELEGRAM_BOT_TOKEN="your_token_here"
-
+```
 ### 4. Launch the bot
-bash
+```bash
 python bot.py
-
+```
 ## ⚙️ Configuration & Limits
 
 Main limits are defined in the `_download_audio` configuration function within `bot.py`:
